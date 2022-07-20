@@ -22,9 +22,9 @@ int main() {
   cin >> key; // считываем ключ
 
   bool flag = false;
- int l = 0;
-int r = n; // в этом случае присваивается именно n
-int mid;
+  int l = 0;
+  int r = n; /
+  int mid;
 
 while (l < r) {
     mid = (l + r) / 2; // считываем срединный индекс отрезка [l,r]
@@ -33,10 +33,10 @@ while (l < r) {
     else l = mid + 1;
 }
 
-r--; // уменьшаем на один 
+r--; 
 
 if (arr[r] == key) cout << "Индекс элемента " << key << " в массиве равен: " << r; 
-else cout << "Извините, но такого элемента в массиве нет";
+else cout << " Такого элемента в массиве нет";
   
   system("pause");
   return 0;
